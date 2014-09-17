@@ -8,7 +8,7 @@ require 'json'
 
 API_ENDPOINT   = 'https://api.tokyometroapp.jp/api/v2/'
 DATAPOINTS_URL = API_ENDPOINT + "datapoints"
-ACCESS_TOKEN   = 'a95e568cde6a945c8aa8c26ab53b2894de2fd33953698b1e8aafdd692bfbe2be'
+ACCESS_TOKEN   = ''
 
 
 STATION_LIST   = YAML.load_file('stationList.yaml')
